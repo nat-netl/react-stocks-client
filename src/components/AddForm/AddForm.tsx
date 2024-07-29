@@ -45,8 +45,7 @@ const AddForm: React.FC = () => {
       .post(`${BASE_URL}/add_stock`, value)
       .then((res) => console.log(res))
       .catch((err) => console.log(err));
-
-    return window.location.reload();
+    // return window.location.reload();
   };
 
   return (
