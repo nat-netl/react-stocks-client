@@ -43,7 +43,7 @@ const EditForm: React.FC<IEditFormProps> = ({ id }) => {
       .then((res) => console.log(res))
       .catch((err) => console.log(err));
 
-    // return window.location.reload();
+    return window.location.reload();
   };
 
   const validateSchema = yup.object().shape({
