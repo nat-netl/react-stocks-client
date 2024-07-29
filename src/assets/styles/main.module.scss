@@ -1,0 +1,56 @@
+@import "./_variables.scss";
+
+@font-face {
+  font-family: "Nunito-Regular";
+  src: url("../../assets/fonts/nunito/Nunito-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nunito-Bold";
+  src: url("../../assets/fonts/nunito/Nunito-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: $font-regular;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  
+}
+button {
+  transition: all 0.8s ease-out;
+}
+
+button:hover {
+  background-color: #2222 !important;
+  cursor: pointer;
+  color: #000000;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1 1 auto;
+}

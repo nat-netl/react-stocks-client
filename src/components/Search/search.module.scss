@@ -1,0 +1,35 @@
+.wrapper {
+  margin-bottom: 20px;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.form__group {
+  position: relative;
+  width: 100%;
+}
+
+.input__search {
+  width: 100%;
+  font-size: 22px;
+  padding: 10px;
+  border: 1px solid #cccc;
+  border-right: none;
+}
+
+.btn {
+  width: 60px;
+  border: 1px solid #cccc;
+  background-color: #2828f5;
+}
+
+.error {
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+  color: #dd1212;
+}
