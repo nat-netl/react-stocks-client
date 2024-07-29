@@ -34,6 +34,7 @@ const EditForm: React.FC<IEditFormProps> = ({ id }) => {
     days_receipt_gift: stockData[0].days_receipt_gift,
     card_numbers: stockData[0].card_numbers,
     description: stockData[0].description,
+    date: stockData[0].date
   };
 
   const handleSubmit = (value: IValues) => {

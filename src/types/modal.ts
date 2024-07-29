@@ -22,4 +22,5 @@ export interface IValues {
   days_receipt_gift: string | number;
   description?: string;
   card_numbers: string | number;
+  date?: string
 }
