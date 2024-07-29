@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://stocks-api';
+export const BASE_URL = 'https://stocks-api-nqcb.onrender.com';
